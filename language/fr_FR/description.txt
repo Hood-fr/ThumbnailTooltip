@@ -1,0 +1,1 @@
+Permet de changer l'infobulle sur les images dans les albums
