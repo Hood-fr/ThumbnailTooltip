@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
 // +-----------------------------------------------------------------------+
@@ -37,5 +37,5 @@ $lang['tn_type6'] = 'Auteur : {Autor}';
 $lang['tn_type7'] = '{puntuación}';
 $lang['tn_type8'] = '({nb_visitas}, {puntuación})';
 $lang['tn_yes'] = 'Si';
-$lang['value1'] = 'Tipo de titulo';
+$lang['tn_name_link'] = 'Tipo de titulo';
 ?>
