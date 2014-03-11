@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 $lang['tn_display'] = 'Affichage';
 $lang['tn_display_name'] = 'Afficher le titre de l\'image';
 $lang['tn_name_link'] = 'Type d\'affichage du titre';
