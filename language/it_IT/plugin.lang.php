@@ -22,6 +22,7 @@
 // +-----------------------------------------------------------------------+
 $lang['tn_display_name'] = 'Visualizza il titolo dell\'immagine';
 $lang['tn_display'] = 'Visualizza';
+$lang['tn_name_link'] = 'Visualizzazione del titolo';
 $lang['tn_none'] = 'Nessuno';
 $lang['tn_no'] = 'No';
 $lang['tn_separator'] = 'Separatore (-)';
