@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
 // +-----------------------------------------------------------------------+
@@ -37,5 +37,5 @@ $lang['tn_type6'] = 'Yazar: {Author}';
 $lang['tn_type7'] = '{rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
 $lang['tn_yes'] = 'Evet';
-$lang['value1'] = 'Başlık tipi';
+$lang['tn_name_link'] = 'Başlık tipi';
 ?>
