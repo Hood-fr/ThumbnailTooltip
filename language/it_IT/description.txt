@@ -1,0 +1,1 @@
+Consente di modificare il tooltip su immagini in album
