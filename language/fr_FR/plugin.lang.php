@@ -1,7 +1,6 @@
 <?php
 $lang['tn_display'] = 'Affichage';
 $lang['tn_display_name'] = 'Afficher le titre de l\'image';
-$lang['tn_name_link'] = 'Type d\'affichage du titre';
 $lang['tn_separator'] = 'Separateur (-)';
 $lang['tn_none'] = 'Aucun';
 $lang['tn_yes'] = 'Oui';
@@ -19,4 +18,5 @@ $lang['tn_type8'] = '({nb_visits}, {rating_score})';
 $lang['tn_configuration_saved'] = 'Configuration sauvegardée';
 $lang['tn_default_parameters'] = 'Paramètres par défaut';
 $lang['tn_default_parameters_saved'] = 'Paramètres par défaut sauvegardés';
+$lang['value1'] = 'Type de titre';
 ?>
