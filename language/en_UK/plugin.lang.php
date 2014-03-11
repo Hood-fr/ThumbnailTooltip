@@ -1,7 +1,7 @@
 <?php
 $lang['tn_display'] = 'Display';
 $lang['tn_display_name'] = 'Display image title';
-$lang['value1'] = 'Title type';
+$lang['tn_name_link'] = 'Title type';
 $lang['tn_separator'] = 'Separator (-)';
 $lang['tn_none'] = 'None';
 $lang['tn_yes'] = 'Yes';
