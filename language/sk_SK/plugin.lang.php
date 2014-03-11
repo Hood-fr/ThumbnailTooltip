@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
 // +-----------------------------------------------------------------------+
@@ -28,7 +28,7 @@ $lang['tn_type5'] = '{Author}';
 $lang['tn_type6'] = 'Autor: {Author}';
 $lang['tn_type7'] = '{rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
-$lang['value1'] = 'Typ názvu';
+$lang['tn_name_link'] = 'Typ názvu';
 $lang['tn_yes'] = 'Áno';
 $lang['tn_separator'] = 'Oddeľovač (-)';
 $lang['tn_none'] = 'Žiadny';
