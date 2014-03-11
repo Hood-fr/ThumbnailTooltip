@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 // +-----------------------------------------------------------------------+
 // | Piwigo - a PHP based photo gallery                                    |
 // +-----------------------------------------------------------------------+
@@ -20,6 +20,7 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+
 $lang['tn_type1'] = '{title}';
 $lang['tn_type2'] = '{nb_visits}';
 $lang['tn_type3'] = '({nb_visits})';
@@ -28,14 +29,14 @@ $lang['tn_type5'] = '{Author}';
 $lang['tn_type6'] = 'Auteur : {Author}';
 $lang['tn_type7'] = '{rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
-$lang['tn_separator'] = 'Atdalītājs (-)';
+$lang['tn_separator'] = 'Atdalitajs (-)';
 $lang['tn_none'] = 'Neviens';
-$lang['tn_no'] = 'Nē';
-$lang['tn_display_name'] = 'Parādīt attēla nosaukumu';
-$lang['tn_display'] = 'Parādīt';
-$lang['tn_default_parameters_saved'] = 'Noklusējuma konfigurācija saglabāta';
-$lang['tn_default_parameters'] = 'Noklusējuma konfigurācija';
-$lang['tn_configuration_saved'] = 'Konfigurācija saglabāta';
-$lang['value1'] = 'Nosaukuma tips';
-$lang['tn_yes'] = 'Jā';
+$lang['tn_no'] = 'Ne';
+$lang['tn_display_name'] = 'Paradit attela nosaukumu';
+$lang['tn_display'] = 'Paradit';
+$lang['tn_default_parameters_saved'] = 'Noklusejuma konfiguracija saglabata';
+$lang['tn_default_parameters'] = 'Noklusejuma konfiguracija';
+$lang['tn_configuration_saved'] = 'Konfiguracija saglabata';
+$lang['tn_name_link'] = 'Nosaukuma tips';
+$lang['tn_yes'] = 'Ja';
 ?>
