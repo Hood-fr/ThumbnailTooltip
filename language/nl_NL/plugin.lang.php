@@ -37,5 +37,5 @@ $lang['tn_type6'] = 'Auteur (Maker) : {Author}';
 $lang['tn_type7'] = '{rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
 $lang['tn_yes'] = 'Ja';
-$lang['value1'] = 'Soort titel';
+$lang['tn_name_link'] = 'Soort titel';
 ?>
