@@ -12,7 +12,7 @@ $lang['tn_type2'] = '{nb_visits}';
 $lang['tn_type3'] = '({nb_visits})';
 $lang['tn_type4'] = '{description}';
 $lang['tn_type5'] = '{Author}';
-$lang['tn_type6'] = 'Auteur : {Author}';
+$lang['tn_type6'] = 'Author: {Author}';
 $lang['tn_type7'] = '{rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
 
