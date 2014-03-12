@@ -1,7 +1,7 @@
 <?php
 $lang['tn_display'] = 'Affichage';
 $lang['tn_display_name'] = 'Afficher le titre de l\'image';
-$lang['tn_name_link'] = 'Type d\'affichage du titre';
+$lang['tn_name_link'] = 'Type de titre';
 $lang['tn_separator'] = 'Separateur (-)';
 $lang['tn_none'] = 'Aucun';
 $lang['tn_yes'] = 'Oui';
