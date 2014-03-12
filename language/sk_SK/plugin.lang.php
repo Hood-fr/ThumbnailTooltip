@@ -20,14 +20,14 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['tn_type1'] = '{title}';
-$lang['tn_type2'] = '{nb_visits}';
-$lang['tn_type3'] = '({nb_visits})';
-$lang['tn_type4'] = '{description}';
-$lang['tn_type5'] = '{Author}';
-$lang['tn_type6'] = 'Autor: {Author}';
-$lang['tn_type7'] = '{rating_score}';
-$lang['tn_type8'] = '({nb_visits}, {rating_score})';
+$lang['tn_type1'] = 'Názov';
+$lang['tn_type2'] = 'Návštev';
+$lang['tn_type3'] = '(Návštev)';
+$lang['tn_type4'] = 'Popis';
+$lang['tn_type5'] = 'Autor';
+$lang['tn_type6'] = 'Autor: Autor';
+$lang['tn_type7'] = 'Bodové hodnotenie';
+$lang['tn_type8'] = '(Návštev, Bodové hodnotenie)';
 $lang['tn_name_link'] = 'Typ názvu';
 $lang['tn_yes'] = 'Áno';
 $lang['tn_separator'] = 'Oddeľovač (-)';
