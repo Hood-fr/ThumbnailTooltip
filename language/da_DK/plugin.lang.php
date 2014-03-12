@@ -37,4 +37,5 @@ $lang['tn_type6'] = 'Forfatter: {Author}';
 $lang['tn_type7'] = ' {rating_score}';
 $lang['tn_type8'] = '({nb_visits}, {rating_score})';
 $lang['tn_yes'] = 'Ja';
+$lang['tn_name_link'] = 'Titeltype';
 ?>
