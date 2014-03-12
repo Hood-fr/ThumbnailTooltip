@@ -21,14 +21,14 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 
-$lang['tn_type1'] = '{title}';
-$lang['tn_type2'] = '{nb_visits}';
-$lang['tn_type3'] = '({nb_visits})';
-$lang['tn_type4'] = '{description}';
-$lang['tn_type5'] = '{Author}';
-$lang['tn_type6'] = 'Auteur : {Author}';
-$lang['tn_type7'] = '{rating_score}';
-$lang['tn_type8'] = '({nb_visits}, {rating_score})';
+$lang['tn_type1'] = 'Nosaukums';
+$lang['tn_type2'] = 'Apmeklejumi';
+$lang['tn_type3'] = '(Apmeklejumi)';
+$lang['tn_type4'] = 'Description';
+$lang['tn_type5'] = 'Autors';
+$lang['tn_type6'] = 'Autors : Autors';
+$lang['tn_type7'] = 'Rezultejošais vertejums';
+$lang['tn_type8'] = '(Apmeklejumi, Rezultejošais vertejums)';
 $lang['tn_separator'] = 'Atdalitajs (-)';
 $lang['tn_none'] = 'Neviens';
 $lang['tn_no'] = 'Ne';
