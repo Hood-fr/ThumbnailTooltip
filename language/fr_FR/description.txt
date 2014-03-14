@@ -1,1 +1,1 @@
-Permet de changer l'infobulle sur les images dans les albums
+Permet de changer l'info-bulle des photos dans l'album
