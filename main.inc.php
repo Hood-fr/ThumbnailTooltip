@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Thumbnail Tooltip
-Version: auto
+Version: 1.4.0
 Description: Permet de changer l'infobulle sur les images dans les albums.
 Plugin URI: http://fr.piwigo.org/ext/extension_view.php?eid=738
 Author: Sarybe
