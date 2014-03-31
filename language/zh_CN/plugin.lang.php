@@ -22,15 +22,15 @@
 // +-----------------------------------------------------------------------+
 $lang['tn_no'] = '不';
 $lang['tn_none'] = '没有';
-$lang['tn_separator'] = '分离器（-）';
+$lang['tn_separator'] = '分隔符(-)';
 $lang['tn_type1'] = '标题';
-$lang['tn_type2'] = '点击';
-$lang['tn_type3'] = '(点击)';
+$lang['tn_type2'] = '点击量';
+$lang['tn_type3'] = '(点击量)';
 $lang['tn_type4'] = '描述';
 $lang['tn_type5'] = '作者';
 $lang['tn_type6'] = '作者：作者';
 $lang['tn_type7'] = '评分';
-$lang['tn_type8'] = '（点击，评分）';
+$lang['tn_type8'] = '（点击量，评分）';
 $lang['tn_yes'] = '是';
 $lang['tn_display_name'] = '显示图片标题';
 $lang['tn_name_link'] = '标题类型';
