@@ -1,7 +1,10 @@
 <?php
-$lang['tn_display'] = 'Display';
-$lang['tn_display_name'] = 'Display image title';
-$lang['tn_name_link'] = 'Title type';
+$lang['tn_display_img'] = 'Photos';
+$lang['tn_display_cat'] = 'Albums';
+$lang['tn_display_name_img'] = 'Display the title of the picture';
+$lang['tn_display_name_cat'] = 'Display the name of author in the albums';
+$lang['tn_name_link'] = 'Tooltip text';
+
 $lang['tn_separator'] = 'Separator (-)';
 $lang['tn_none'] = 'None';
 $lang['tn_yes'] = 'Yes';

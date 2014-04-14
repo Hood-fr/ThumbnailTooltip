@@ -20,6 +20,11 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+$lang['tn_display_img'] = 'Fotky';
+$lang['tn_display_cat'] = 'Albumu';
+$lang['tn_display_name_img'] = 'Zobraziť na fotografiu titul';
+$lang['tn_display_name_cat'] = 'Zobrazí meno autora albumov';
+$lang['tn_name_link'] = 'Tooltip text';
 $lang['tn_type1'] = 'Názov';
 $lang['tn_type2'] = 'Návštev';
 $lang['tn_type3'] = '(Návštev)';
@@ -28,13 +33,11 @@ $lang['tn_type5'] = 'Autor';
 $lang['tn_type6'] = 'Autor: Autor';
 $lang['tn_type7'] = 'Bodové hodnotenie';
 $lang['tn_type8'] = '(Návštev, Bodové hodnotenie)';
-$lang['tn_name_link'] = 'Typ názvu';
 $lang['tn_yes'] = 'Áno';
 $lang['tn_separator'] = 'Oddeľovač (-)';
 $lang['tn_none'] = 'Žiadny';
 $lang['tn_no'] = 'Nie';
-$lang['tn_display_name'] = 'Zobraziť názov fotky';
-$lang['tn_display'] = 'Zobrazenie';
+
 $lang['tn_default_parameters_saved'] = 'Predvolená konfigurácia uložená';
 $lang['tn_default_parameters'] = 'Predvolená konfigurácia';
 $lang['tn_configuration_saved'] = 'Konfigurácia uložená';

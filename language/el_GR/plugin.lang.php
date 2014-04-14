@@ -32,9 +32,13 @@ $lang['tn_type1'] = 'Τίτλος';
 $lang['tn_separator'] = 'Διαχωριστής (-)';
 $lang['tn_none'] = 'Τίποτα';
 $lang['tn_no'] = 'Όχι';
-$lang['tn_name_link'] = 'Tύπος τίτλου';
-$lang['tn_display_name'] = 'Εμφάνιση τίτλου εικόνας';
-$lang['tn_display'] = 'Εμφάνιση';
+
+$lang['tn_name_link'] = 'Συμβουλή εργαλείου κειμένου';
+$lang['tn_display_img'] = 'Εμφάνιση';
+$lang['tn_display_cat'] = 'λευκώματα';
+$lang['tn_display_name_img'] = 'Εμφάνιση τίτλου εικόνας';
+$lang['tn_display_name_cat'] = 'Εμφάνιση δημιουργού στα λευκώματα';
+
 $lang['tn_default_parameters_saved'] = 'Οι προεπιλεγμένες ρυθμίσεις αποθηκεύτηκαν';
 $lang['tn_default_parameters'] = 'Οι προεπιλεγμένες ρυθμίσεις';
 $lang['tn_configuration_saved'] = 'Οι ρυθμίσεις αποθηκεύτηκαν';

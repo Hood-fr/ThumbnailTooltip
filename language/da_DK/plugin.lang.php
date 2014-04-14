@@ -20,11 +20,15 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+$lang['tn_display_img'] = 'Fotos';
+$lang['tn_display_cat'] = 'Kategorier';
+$lang['tn_display_name_img'] = 'Vis billede titel';
+$lang['tn_display_name_cat'] = 'Vis den author den albummer fotos';
+$lang['tn_name_link'] = 'Text tooltip';
+
 $lang['tn_configuration_saved'] = 'Opsætning gemt';
 $lang['tn_default_parameters'] = 'Standardopsætning';
 $lang['tn_default_parameters_saved'] = 'Standardopsætning gemt';
-$lang['tn_display'] = 'Vis';
-$lang['tn_display_name'] = 'Vis billedtitel';
 $lang['tn_no'] = 'Nej';
 $lang['tn_none'] = 'Ingen';
 $lang['tn_separator'] = 'Separator (-)';
@@ -37,5 +41,4 @@ $lang['tn_type6'] = 'Forfatter: Forfatter';
 $lang['tn_type7'] = ' Bedømmelse';
 $lang['tn_type8'] = '(Besøg, Bedømmelse)';
 $lang['tn_yes'] = 'Ja';
-$lang['tn_name_link'] = 'Titeltype';
 ?>

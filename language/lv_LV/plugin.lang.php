@@ -20,6 +20,11 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+$lang['tn_display_img'] = 'Attēli';
+$lang['tn_display_cat'] = 'Fotoalbumus';
+$lang['tn_display_name_img'] = 'Parādīt nosaukumu attēlu';
+$lang['tn_display_name_cat'] = 'Parādīt nosaukumus autors albumā';
+$lang['tn_name_link'] = 'Tooltip teksta';
 
 $lang['tn_type1'] = 'Nosaukums';
 $lang['tn_type2'] = 'Apmeklejumi';
@@ -32,11 +37,9 @@ $lang['tn_type8'] = '(Apmeklejumi, Rezultejošais vertejums)';
 $lang['tn_separator'] = 'Atdalitajs (-)';
 $lang['tn_none'] = 'Neviens';
 $lang['tn_no'] = 'Ne';
-$lang['tn_display_name'] = 'Paradit attela nosaukumu';
-$lang['tn_display'] = 'Paradit';
 $lang['tn_default_parameters_saved'] = 'Noklusejuma konfiguracija saglabata';
 $lang['tn_default_parameters'] = 'Noklusejuma konfiguracija';
 $lang['tn_configuration_saved'] = 'Konfiguracija saglabata';
-$lang['tn_name_link'] = 'Nosaukuma tips';
+
 $lang['tn_yes'] = 'Ja';
 ?>

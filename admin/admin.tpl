@@ -5,10 +5,10 @@
 <form action="" method="post">
 
 <fieldset>
-<legend>{'tn_display'|@translate}</legend>
+<legend>{'tn_display_img'|@translate}</legend>
 <table>
   <tr>
-    <td align="right" nowrap="nowrap">{'tn_display_name'|@translate} : &nbsp;&nbsp;</td>
+    <td align="right" nowrap="nowrap">{'tn_display_name_img'|@translate} : &nbsp;&nbsp;</td>
     <td><input type="radio" name="display_name" value="1" {if $DISPLAY_NAME}checked="checked"{/if} onClick="javascript: jQuery('.name_link').show();"> {'tn_yes'|@translate} &nbsp;
         <input type="radio" name="display_name" value="0" {if !$DISPLAY_NAME}checked="checked"{/if} onClick="javascript: jQuery('.name_link').hide();"> {'tn_no'|@translate}
     </td>
@@ -92,6 +92,21 @@
     </td>
   </tr>
   
+  <tr><td>&nbsp;</td></tr>
+</table>
+</fieldset> 
+
+
+<fieldset>
+<legend>{'tn_display_cat'|@translate}</legend>
+<table>
+  <tr>
+    <td align="right" nowrap="nowrap">{'tn_display_name_cat'|@translate} : &nbsp;&nbsp;</td>
+    <td><input type="radio" name="display_author_cat" value="1" {if $DISPLAY_AUTHOR_CAT}checked="checked"{/if}> {'tn_yes'|@translate} &nbsp;
+        <input type="radio" name="display_author_cat" value="0" {if !$DISPLAY_AUTHOR_CAT}checked="checked"{/if}> {'tn_no'|@translate}
+    </td>
+  </tr>
+   
   <tr><td>&nbsp;</td></tr>
 </table>
 </fieldset>

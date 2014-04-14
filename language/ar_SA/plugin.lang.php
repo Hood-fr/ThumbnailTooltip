@@ -20,9 +20,11 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
-$lang['tn_display'] = 'عرض';
-$lang['tn_display_name'] ='   عرض عنوان  الصور   ';
-$lang['tn_name_link'] = 'نوع العنوان ';
+$lang['tn_display_img'] = 'صور';
+$lang['tn_display_cat'] = 'الفئات';
+$lang['tn_display_name_img'] = 'الاطلاع على عنوان الصورة';
+$lang['tn_display_name_cat'] = 'عرض المؤلف الالبومات';
+$lang['tn_name_link'] = 'النص توولتيب';
 $lang['tn_separator'] = ' فاصل ';
 $lang['tn_none'] = 'لا يوجد ';
 $lang['tn_yes'] = ' نعم ';

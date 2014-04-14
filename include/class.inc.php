@@ -13,6 +13,7 @@ class Thumbnail_Tooltip_IMG {
 
   function initialize_event_handler() {
     add_event_handler('loc_end_index_thumbnails', array($this, 'thumbnail_tooltip_affich'), 50, 2);
+    add_event_handler('loc_end_index_category_thumbnails', array($this, 'Author_Description_affich'), 50, 2);
   }
 
   function thumbnail_tooltip_affich($tpl_var) {
@@ -88,6 +89,31 @@ class Thumbnail_Tooltip_IMG {
 	  if ($params['separator']=='1') { $title = implode(' - ', $details_param); } else { $title = implode(' ', $details_param); }
 	  
 	  if ($params['display_name']==true) { $tpl_var[$cle]['TN_TITLE'] = $title; } else { $tpl_var[$cle]['TN_TITLE']=''; }
+    }
+    return $tpl_var;
+  }
+  
+  
+  function Author_Description_affich($tpl_var) {
+    global $user;
+
+	$query = 'SELECT param, value, comment FROM ' . CONFIG_TABLE . ' WHERE param="thumbnail_tooltip";';
+	$row = pwg_db_fetch_assoc( pwg_query($query) );
+  
+    $params = unserialize($row['value']);
+	$values = array('DISPLAY_AUTHOR_CAT' => $params['display_author_cat']);
+	
+	if ($params['display_author_cat']==true) {
+      foreach($tpl_var as $cle=>$valeur) {
+        $query = "SELECT author FROM ".IMAGE_CATEGORY_TABLE." INNER JOIN ".IMAGES_TABLE." ON image_id = id WHERE category_id = ".(int)$tpl_var[$cle]['id']." LIMIT 1";
+	    $result = pwg_query($query);
+	    $row = pwg_db_fetch_assoc($result);
+	    $auteur = '';
+	    if (!empty($row['author'])) {
+	      if (preg_match('#(,|\/)#i', $row['author'])) { $s = 's'; } else { $s = ''; }
+	      if (!empty($tpl_var[$cle]['DESCRIPTION'])) { $tpl_var[$cle]['DESCRIPTION'] = $tpl_var[$cle]['DESCRIPTION'].'<br/>Auteur'.$s.' : '.$row['author']; } else { $tpl_var[$cle]['DESCRIPTION'] = 'Auteur'.$s.' : '.$row['author']; }
+	    }
+      }
     }
     return $tpl_var;
   }

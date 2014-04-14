@@ -20,11 +20,15 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+$lang['tn_display_img'] = 'Görüntüler';
+$lang['tn_display_cat'] = 'Albümler';
+$lang['tn_display_name_img'] = 'Resmin başlığını görüntüler';
+$lang['tn_display_name_cat'] = 'Yazar kategorisine bakın';
+$lang['tn_name_link'] = 'Araç İpucu Metni';
+
 $lang['tn_configuration_saved'] = 'Yapılandırma kaydedildi';
 $lang['tn_default_parameters'] = 'Varsayılan yapılandırma';
 $lang['tn_default_parameters_saved'] = 'Varsayılan yapılandırma kaydedildi';
-$lang['tn_display'] = 'Göster';
-$lang['tn_display_name'] = 'İmaj başlığını göster';
 $lang['tn_no'] = 'Hayır';
 $lang['tn_none'] = 'Hiçbiri';
 $lang['tn_separator'] = 'Ayırıcı (-)';
@@ -37,5 +41,4 @@ $lang['tn_type6'] = 'Yazar: Yazar';
 $lang['tn_type7'] = 'Oy sayısı';
 $lang['tn_type8'] = '(Görüntülenme, Oy sayısı)';
 $lang['tn_yes'] = 'Evet';
-$lang['tn_name_link'] = 'Başlık tipi';
 ?>

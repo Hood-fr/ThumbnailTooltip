@@ -1,1 +1,1 @@
-Erlaubt, die Kurzanzeige für Bilder in Alben anzupassen
+Hier können Sie die Tooltip ändern, um Fotos und Autoren in den Album-Beschreibungen angezeigt

@@ -20,12 +20,15 @@
 // | Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, |
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
+$lang['tn_display_img'] = 'Fotos';
+$lang['tn_display_cat'] = 'Kategorien';
+$lang['tn_display_name_img'] = 'Fototitel anzeigen';
+$lang['tn_display_name_cat'] = 'Fotograf zu den Albums anzeigen';
+$lang['tn_name_link'] = 'Textentooltip';
+
 $lang['tn_configuration_saved'] = 'Konfiguration gespeichert';
 $lang['tn_default_parameters'] = 'Standardkonfiguration';
 $lang['tn_default_parameters_saved'] = 'Standardkonfiguration gespeichert';
-$lang['tn_display'] = 'Anzeige';
-$lang['tn_display_name'] = 'Bildtitel anzeigen';
-$lang['tn_name_link'] = 'Titeltyp';
 $lang['tn_no'] = 'Nein';
 $lang['tn_none'] = 'Keine';
 $lang['tn_separator'] = 'Trennzeichen (-)';

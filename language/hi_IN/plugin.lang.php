@@ -1,7 +1,10 @@
 <?php
-$lang['tn_display'] = 'फ़ोटो डिस्प्ले';
-$lang['tn_display_name'] = 'फ़ोटो डिस्प्ले शीर्षक';
-$lang['tn_name_link'] = 'शीर्षक केटेगरी';
+$lang['tn_display_img'] = 'फ़ोटो';
+$lang['tn_display_cat'] = 'श्रेणियाँ';
+$lang['tn_display_name_img'] = 'देखें तस्वीर शीर्षक';
+$lang['tn_display_name_cat'] = 'एल्बम में लेखक का नाम प्रदर्शित';
+$lang['tn_name_link'] = 'पाठ टूलटिप';
+
 $lang['tn_separator'] = 'विभाजक (-)';
 $lang['tn_none'] = 'कोई नहीं';
 $lang['tn_yes'] = 'हाँ';
