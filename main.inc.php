@@ -8,7 +8,7 @@ Author: Sarybe
 Author URI: http://www.lesrempartsdetours.com
 */
 
-// InspirÃ© des plugins CatAddFav by jfc (http://fr.piwigo.org/ext/extension_view.php?eid=489) et Lightbox by P@t (http://piwigo.org/ext/extension_view.php?eid=280)
+// Inspiré des plugins CatAddFav by jfc (http://fr.piwigo.org/ext/extension_view.php?eid=489) et Lightbox by P@t (http://piwigo.org/ext/extension_view.php?eid=280)
 
 if (!defined('PHPWG_ROOT_PATH')) {
   die('Hacking attempt!');

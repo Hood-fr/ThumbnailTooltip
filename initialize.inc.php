@@ -1,13 +1,4 @@
 <?php
-/*
-Plugin Name: Thumbnail Tooltip
-Version: 1.2
-Description: Permet de changer l'infobulle sur les images dans les albums.
-Plugin URI: http://fr.piwigo.org/ext/extension_view.php?eid=736
-Author: Sarybe
-Author URI: http://www.lesrempartsdetours.com
-*/
-
 
 if (!defined('PHPWG_ROOT_PATH')) {
   die('Hacking attempt!');

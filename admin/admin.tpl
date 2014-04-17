@@ -111,8 +111,8 @@
 </table>
 </fieldset>
 
-<p><input type="submit" name="submit" value="{'Submit'|@translate}" {$TAG_INPUT_ENABLED}>
-<input type="submit" name="restore" value="{'tn_default_parameters'|@translate}" onclick="return confirm('{'Are you sure?'|@translate|@escape:'javascript'}');" {$TAG_INPUT_ENABLED}></p>
+<p><input type="submit" name="submit" value="{'Submit'|@translate}">
+<input type="submit" name="restore" value="{'tn_default_parameters'|@translate}" onclick="return confirm('{'Are you sure?'|@translate|@escape:'javascript'}');"></p>
 </form>
 
 <script type="text/javascript">
