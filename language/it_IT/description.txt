@@ -1,1 +1,1 @@
-Consente di modificare il tooltip su immagini in album
+Consente di modificare il tooltip su immagini in album, e vedere l'autore nelle descrizioni degli album

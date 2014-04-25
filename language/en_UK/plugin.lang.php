@@ -2,7 +2,7 @@
 $lang['tn_display_img'] = 'Photos';
 $lang['tn_display_cat'] = 'Albums';
 $lang['tn_display_name_img'] = 'Display the title of the picture';
-$lang['tn_display_name_cat'] = 'Display the name of author in the albums';
+$lang['tn_display_name_cat'] = 'Display the author\'s name in the albums';
 $lang['tn_name_link'] = 'Tooltip text';
 
 $lang['tn_separator'] = 'Separator (-)';

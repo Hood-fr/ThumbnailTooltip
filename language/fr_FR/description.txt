@@ -1,1 +1,1 @@
-Permet de modifier l'info-bulle des photos et d'afficher les auteurs dans les descriptions d'albums
+Permet de modifier l'info-bulle des photos et d'ajouter les auteurs dans les descriptions d'albums

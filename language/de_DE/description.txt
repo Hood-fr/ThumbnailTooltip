@@ -1,1 +1,1 @@
-Hier können Sie die Tooltip ändern, um Fotos und Autoren in den Album-Beschreibungen angezeigt
+Hier können Sie die Quickinfo der Bilder zu ändern und Autoren in den Alben Beschreibungen zeigen 

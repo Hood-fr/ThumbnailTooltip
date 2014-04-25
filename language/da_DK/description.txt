@@ -1,0 +1,1 @@
+Giver dig mulighed for at ændre tooltip af billederne i albummet og tilføje en gerningsmanden i beskrivelse af albums

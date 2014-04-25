@@ -1,1 +1,1 @@
-Allows you to change the tooltip of the pictures and authors in the albums descriptions
+Allows you to change the tooltip of the pictures and to show authors in the albums descriptions 
