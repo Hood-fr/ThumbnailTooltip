@@ -37,8 +37,7 @@ class Thumbnail_Tooltip_IMG {
 	if ($params['display_name']==true) {
       foreach($tpl_var as $cle=>$valeur) {
         $query = "
-		  SELECT name AS value1, hit AS value2, hit AS value3, comment AS value4, author AS value5, CONCAT('".l10n('Author').' : '."', author,'') AS value6, rating_score AS value7
-		  FROM ".IMAGES_TABLE."
+		  SELECT name, hit, comment, author, rating_score, CONCAT(width, 'x', height) AS dimensions, filesize FROM ".IMAGES_TABLE."
 		  WHERE id = ".(int)$tpl_var[$cle]['id']."
 		;";
 	    $row = pwg_db_fetch_assoc( pwg_query($query) );
@@ -46,28 +45,33 @@ class Thumbnail_Tooltip_IMG {
         $details = array();
         $details_param = array();
 	  
-        $details['tn_type1'] = $row['value1'];
+        $details['tn_type1'] = $row['name'];
 
-        if (!empty($row['value2'])) {
-		  $details['tn_type2'] = $row['value2'].' '.strtolower(l10n('Visits'));
+        if (!empty($row['hit'])) {
+		  $details['tn_type2'] = $row['hit'].' '.strtolower(l10n('Visits'));
+		  $details['tn_type3'] = '('.$row['hit'].' '.strtolower(l10n('Visits')).')';
+	      if (!empty($row['rating_score'])) { $type8 = ', '.strtolower(l10n('Rating score')).' '.$row['rating_score']; } else { $type8 = ''; }
+		  $details['tn_type8'] = '('.$row['hit'].' '.strtolower(l10n('Visits')).$type8.')';
         }
-        if (!empty($row['value3'])) {
-		  $details['tn_type3'] = '('.$row['value3'].' '.strtolower(l10n('Visits')).')';
-	    if (!empty($row['value7'])) { $type8 = ', '.strtolower(l10n('Rating score')).' '.$row['value7']; } else { $type8 = ''; }
-		  $details['tn_type8'] = '('.$row['value3'].' '.strtolower(l10n('Visits')).$type8.')';
+        if (!empty($row['comment'])) {
+		  $details['tn_type4'] = $row['comment'];
         }
-        if (!empty($row['value4'])) {
-		  $details['tn_type4'] = $row['value4'];
+        if (!empty($row['author'])) {
+		  $details['tn_type5'] = $row['author'];
         }
-        if (!empty($row['value5'])) {
-		  $details['tn_type5'] = $row['value5'];
+        if (!empty($row['author'])) {
+		  $details['tn_type6'] = (preg_match('#(,|\/)#i', $row['author'])) ? str_replace(array('(',')'), '', ucfirst(l10n('author(s) : %s', $row['author']))) : l10n('Author').' : '.$row['author'];
         }
-        if (!empty($row['value6'])) {
-		  $details['tn_type6'] = $row['value6'];
+        if (!empty($row['rating_score'])) {
+		  $details['tn_type7'] = strtolower(l10n('Rating score')).' '.$row['rating_score'];
         }
-        if (!empty($row['value7'])) {
-		  $details['tn_type7'] = strtolower(l10n('Rating score')).' '.$row['value7'];
+        if (!empty($row['dimensions'])) {
+		  $details['tn_type9'] = l10n('Dimensions').' : '.$row['dimensions'];
         }
+		if (!empty($row['filesize'])) {
+		  if (($params['separator']=='1') && (!empty($details['tn_type9']))) { $details['tn_type9'].= ' - '; } elseif (($params['separator']!='1') && (!empty($details['tn_type9']))) { $details['tn_type9'].= ' '; } else { $details['tn_type9'] = ' '; } 
+		  $details['tn_type9'].= l10n('Filesize').' : '.l10n('%d Kb', $row['filesize']); 
+		}
 	  	  
         if ((!empty($details[$values['value1']])) && ($details[$values['value1']]!='none')) { $details_param[] = $details[$values['value1']]; }
         if ((!empty($details[$values['value2']])) && ($details[$values['value2']]!='none')) { $details_param[] = $details[$values['value2']]; }
@@ -96,12 +100,17 @@ class Thumbnail_Tooltip_IMG {
 	
 	if ($params['display_author_cat']==true) {
       foreach($tpl_var as $cle=>$valeur) {
-        $query = "SELECT author FROM ".IMAGE_CATEGORY_TABLE." INNER JOIN ".IMAGES_TABLE." ON image_id = id WHERE category_id = ".(int)$tpl_var[$cle]['id']." LIMIT 1";
+        $query = "SELECT author FROM ".IMAGE_CATEGORY_TABLE." INNER JOIN ".IMAGES_TABLE." ON image_id = id WHERE category_id = ".(int)$tpl_var[$cle]['id']." AND author<>'' GROUP BY author";
 	    $result = pwg_query($query);
 	    $row = pwg_db_fetch_assoc($result);
-
+		
+		$auteur = '';
 	    if (!empty($row['author'])) {
-	      if (preg_match('#(,|\/)#i', $row['author'])) { $auteur = str_replace(array('(',')'), '', ucfirst(sprintf($lang['author(s) : %s'],$row['author']))); } else { $auteur = $lang['Author'].' : '.$row['author']; }
+		  do {
+		    $auteur .= $row['author'].', ';
+		  } while ($row = pwg_db_fetch_assoc($result));
+		  $auteur = substr($auteur, 0, -2);
+	      if (preg_match('#(,|\/)#i', $auteur )) { $auteur = str_replace(array('(',')'), '', ucfirst(sprintf($lang['author(s) : %s'], $auteur))); } else { $auteur = $lang['Author'].' : '.$auteur ; }
 	      if (!empty($tpl_var[$cle]['DESCRIPTION'])) { $tpl_var[$cle]['DESCRIPTION'] = $tpl_var[$cle]['DESCRIPTION'].'<br/>'.$auteur; } else { $tpl_var[$cle]['DESCRIPTION'] = $auteur; }
 	    }
       }
