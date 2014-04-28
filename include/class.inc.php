@@ -88,6 +88,7 @@ class Thumbnail_Tooltip_IMG {
     return $tpl_var;
   }
   
+  
   function Author_Description_affich($tpl_var) {
     global $user, $lang;
 
