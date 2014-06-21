@@ -1,0 +1,1 @@
+Låter dig ändra bildernas "förklaringsbubbla" (vid musrörelse), och visa skaparens namn i albumets beskrivning
