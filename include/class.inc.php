@@ -34,9 +34,9 @@ class Thumbnail_Tooltip_IMG {
 		  WHERE id = ".(int)$tpl_var[$cle]['id']."
 		;";	    $row = pwg_db_fetch_assoc( pwg_query($query) );
         $details = array();        $details_param = array();
-        $details['tn_type1'] = addslashes(strip_tags($row['name']));
+        $details['tn_type1'] = str_replace('"', '\"', strip_tags($row['name']));
         if (!empty($row['hit'])) {		  $details['tn_type2'] = $row['hit'].' '.strtolower(l10n('Visits'));		  $details['tn_type3'] = '('.$row['hit'].' '.strtolower(l10n('Visits')).')';	      if (!empty($row['rating_score'])) { $type8 = ', '.strtolower(l10n('Rating score')).' '.$row['rating_score']; } else { $type8 = ''; }		  $details['tn_type8'] = '('.$row['hit'].' '.strtolower(l10n('Visits')).$type8.')';        }
-        if (!empty($row['comment'])) {		  $details['tn_type4'] = addslashes(strip_tags($row['comment']));        }
+        if (!empty($row['comment'])) {		  $details['tn_type4'] = str_replace('"', '\"', strip_tags($row['comment']));        }
         if (!empty($row['author'])) {		  $details['tn_type5'] = $row['author'];        }
         if (!empty($row['author'])) {		  $details['tn_type6'] = (preg_match('#(,|\/)#i', $row['author'])) ? str_replace(array('(',')'), '', ucfirst(l10n('author(s) : %s', $row['author']))) : l10n('Author').' : '.$row['author'];        }
         if (!empty($row['rating_score'])) {		  $details['tn_type7'] = strtolower(l10n('Rating score')).' '.$row['rating_score'];        }
