@@ -26,10 +26,8 @@ class Thumbnail_Tooltip_IMG {
 		  'value5'           	 => $params['value5'],
 		  'value6'           	 => $params['value6'],
 		  'separator'         	 => $params['separator']
-	);	
-	if ($params['display_name']==true) {
-      foreach($tpl_var as $cle=>$valeur) {
-        $query = "
+	);		foreach($tpl_var as $cle=>$valeur) {
+	  if ($params['display_name']==true) {        $query = "
 		  SELECT name, hit, comment, author, rating_score, CONCAT(width, 'x', height) AS dimensions, filesize FROM ".IMAGES_TABLE."
 		  WHERE id = ".(int)$tpl_var[$cle]['id']."
 		;";	    $row = pwg_db_fetch_assoc( pwg_query($query) );
@@ -49,7 +47,7 @@ class Thumbnail_Tooltip_IMG {
         if ((!empty($details[$values['value6']])) && ($details[$values['value6']]!='none')) { $details_param[] = $details[$values['value6']]; }  
         if ($params['separator']=='1') { $title = implode(' - ', $details_param); } else { $title = implode(' ', $details_param); }
         $tpl_var[$cle]['TN_TITLE'] = $title;
-      }
+      }	  else {	    $tpl_var[$cle]['TN_TITLE'] = null;	  }
     }
     return $tpl_var;
   }
