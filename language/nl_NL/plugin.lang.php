@@ -21,9 +21,9 @@
 // | USA.                                                                  |
 // +-----------------------------------------------------------------------+
 $lang['tn_display_img'] = 'Foto\'s';
-$lang['tn_display_cat'] = 'Categorieën';
-$lang['tn_display_name_img'] = 'Geef de titel van de afbeelding weer';
-$lang['tn_display_name_cat'] = 'Toon de auteur in albums';
+$lang['tn_display_cat'] = 'CategorieÃ«n';
+$lang['tn_display_name_img'] = 'Toon de titel van de foto';
+$lang['tn_display_name_cat'] = 'Toon de fotograaf/maker in de albums';
 $lang['tn_name_link'] = 'Tekst tooltip';
 
 $lang['tn_configuration_saved'] = 'Instellingen opgeslagen';
@@ -33,12 +33,11 @@ $lang['tn_no'] = 'Nee';
 $lang['tn_none'] = 'Geen';
 $lang['tn_separator'] = 'Scheidingsteken (-)';
 $lang['tn_type1'] = 'Titel';
-$lang['tn_type2'] = 'Bezoeken';
-$lang['tn_type3'] = '(Bezoeken)';
+$lang['tn_type2'] = 'Hits';
+$lang['tn_type3'] = '(Hits)';
 $lang['tn_type4'] = 'Omschrijving';
-$lang['tn_type5'] = 'Naam';
-$lang['tn_type6'] = 'Auteur (Maker) : Naam';
-$lang['tn_type7'] = 'Waarderings score';
-$lang['tn_type8'] = '(Bezoeken, Waarderings score)';
+$lang['tn_type5'] = 'Fotograaf/maker';
+$lang['tn_type6'] = 'Fotograaf (Maker): Fotograaf/maker';
+$lang['tn_type7'] = 'Waarderings-score';
+$lang['tn_type8'] = '(Hits, Waarderings-score)';
 $lang['tn_yes'] = 'Ja';
-?>
