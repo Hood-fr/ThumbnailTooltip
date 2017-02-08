@@ -1,4 +1,5 @@
 <?php
+
 $config_default = array(
   'display_name'        => true,
   'value1'              => 'tn_type1',
@@ -10,4 +11,5 @@ $config_default = array(
   'separator'           => '1',
   'display_author_cat'  => '1'
 );
+
 ?>
